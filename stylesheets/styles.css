@@ -1,0 +1,109 @@
+body, p {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+/* navigation style */
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 1em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    height: 20px;
+}
+
+#sign-in {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* main body style */
+main {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.g-logo {
+    height: 100px;
+    padding: 1.5em;
+}
+
+input {
+    width: 80%;
+    padding: 1em;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+
+.btns-container {
+    margin-top: 1em;
+}
+
+.btns-container button {
+    padding: 1em;
+    border: none;
+    margin-right: 0.8em;
+    border-radius: 5px;
+    background: rgba(237, 243, 241, 0.5);
+}
+
+.g-lang {
+    margin: 1.5em;
+}
+
+p a {
+    color: blue;
+    margin-right: 0.5em;
+}
+
+/* footer style */
+footer {
+    margin-top: 11.2em;
+    background: rgb(245, 245, 245);
+}
+
+.footer-top {
+    margin: auto 0.5em;
+    padding: 1em;
+}
+
+.footer-bottom {
+    margin: auto 0.5em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(219, 216, 216);
+}
+
+#carbon {
+    width: 18px;
+    height: 18px;
+}
+
+#carbon-text {
+    display: inline;
+    margin-left: 0.5em;
+}
+
+.left a {
+    margin-right: 1em;
+}
+
+.right a {
+    margin-right: 1em;
+}
